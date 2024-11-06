@@ -1,0 +1,56 @@
+/* Add a background color to the top navigation */
+.topnav {
+  background-color: whitesmoke; /* Default background for dark theme */
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #e3e3e3; /* Default text color for dark theme */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: black; /* Default background for dark theme */
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd; /* Light gray for hover */
+  color: black; /* Dark text on hover */
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D; /* Green for active link */
+  color: white; /* White text for active link */
+}
+
+/* Styles for light theme */
+.topnav.light {
+  background-color: white; /* Background for light theme */
+}
+
+.topnav.light a {
+  color: black; /* Text color for light theme */
+  background-color: white; /* Background for links in light theme */
+}
+
+.topnav.light a:hover {
+  background-color: #e0e0e0; /* Light gray for hover in light theme */
+  color: black; /* Dark text on hover in light theme */
+}
+
+.topnav.light a.active {
+  background-color: #04AA6D; /* Green for active link in light theme */
+  color: white; /* White text for active link in light theme */
+}
+
+.topnav .Login {
+  float: right;
+  display: flex;
+}
+
+
+

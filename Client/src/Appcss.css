@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+}
+
+i{
+    cursor: pointer;
+}
+/* Base styles for the main app container */
+.app-container {
+    padding: 20px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Light theme */
+  .app-container.light {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  /* Dark theme */
+  .app-container.dark {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  
